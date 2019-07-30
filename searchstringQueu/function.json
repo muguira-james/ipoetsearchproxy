@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "string-queue",
+      "connection": "ipoetstoracc_STORAGE"
+    },
+    {
+      "type": "blob",
+      "name": "outputblob",
+      "path": "outblobq/{rand-guid}",
+      "connection": "jamqueue1b6bb_STORAGE",
+      "direction": "out"
+    }
+  ]
+}
