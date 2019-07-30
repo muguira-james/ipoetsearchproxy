@@ -11,7 +11,7 @@
       "type": "blob",
       "name": "outputblob",
       "path": "outblobq/{rand-guid}",
-      "connection": "jamqueue1b6bb_STORAGE",
+      "connection": "ipoetstoracc_STORAGE",
       "direction": "out"
     }
   ]
